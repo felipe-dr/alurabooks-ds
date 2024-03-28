@@ -1,17 +1,17 @@
 import { ComponentMeta } from '@storybook/react';
 import React from 'react';
 
-import { Card } from '../src/components/card';
+import { AbCard } from '../src';
 
 export default {
-  title: 'components/Card',
-  component: Card,
-} as ComponentMeta<typeof Card>;
+  title: 'Components/AbCard',
+  component: AbCard,
+} as ComponentMeta<typeof AbCard>;
 
 export const CardComponent = () => {
   return (
-    <Card>
+    <AbCard>
       <h1>Olá, eu sou um card</h1>
-    </Card>
+    </AbCard>
   );
 };
