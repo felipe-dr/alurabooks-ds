@@ -1,5 +1,6 @@
 import { ComponentMeta, ComponentStory } from '@storybook/react';
 import React from 'react';
+
 import { AbOptionsGroup, AbOptionsGroupProps } from '../src';
 
 export default {
